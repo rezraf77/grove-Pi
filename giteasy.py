@@ -13,6 +13,9 @@ while True:
     elif command == "push":
         system("git push")
     
+    elif command == "status":
+        system("git status")
+    
     else:
         system(command)
 
